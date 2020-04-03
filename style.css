@@ -1,0 +1,51 @@
+header{
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+ul li {
+    float: left;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ li a {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+ li a:hover {
+  background: #454d59;
+  color: #d0d2d5;
+}
+
+.card{
+  background-color: #4be9e9;
+}
+.slider-img{
+  width:1300px;
+  float: center;
+  margin: 10px 10px 10px 10px;
+}
+.image{
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin: 10px 10px 10px 10px;
+}
+.p-text{
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,2);
+  padding: 16px;
+  text-align: justify;
+  column-count: 4;
+  column-rule: 2px solid black;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  height: 40px;
+  text-align: center;
+}
